@@ -1,0 +1,346 @@
+/*jerome was here*/
+.shortcut-thing {
+  background-image: url('Photos/travisphoto.jpeg');
+  background-size: cover;
+  height: 92vh;
+  min-height: 400px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: garamond;
+  font-size: 20px;
+  height: 100%;
+}
+#nav{
+  border-radius: 0px;
+  border-bottom: 1px solid gray;
+  z-index: 100;
+}
+.navbar-brand {
+  width:99px;
+}
+#TPPIcon {
+  width:65px;
+  position: absolute;
+  top:4px;
+}
+#mainNavBar>ul>li>a {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Crimson Text', serif;
+  font-weight: bold;
+}
+.dropdown-menu>li>a {
+  font-size: 1.15em;
+  padding-left: 30px;
+  font-family: 'Crimson Text', serif;
+}
+#containerHome {
+  position: relative;
+  top:-20px;
+  margin-bottom: -20px;
+  overflow-x: hidden;
+}
+#travisPhotoHome {
+  position: relative;
+  width: 100%;
+  min-width: 1250px;
+  height: 100%;
+  padding: 0;
+  margin:0;
+}
+#containerHome>h2 {
+  position: absolute;
+  top: 22.5%;
+  right:15%;
+  font-size: 3em;
+  color: white;
+  /*font-family: sans-serif, Geneva, Georgia, Times, Palatino, Arial;*/
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bolder;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  transform: skew(-10deg, 0deg) ;
+  -webkit-transform: skew(-10deg, 0deg) ;
+  -moz-transform: skew(-10deg, 0deg) ;
+  -o-transform: skew(-10deg, 0deg) ;
+  -ms-transform: skew(-10deg, 0deg) ;
+
+}
+#containerHome>h2>span {
+  position: absolute;
+  top:71%;
+  left:30%;
+  font-size: .85em;
+  color: #e30b0b;
+  font-weight: bold;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 1);
+}
+#socialLinks {
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 225px;
+}
+.socialPic {
+  float: left;
+  width:20%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+}
+#homeFooter {
+  position: absolute;
+  bottom:10px;
+  width:100%;
+  text-align: center;
+  font-size: .75em;
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin-bottom: -1px;
+}
+/* END OF HOME PAGE CSS/ BEGINNING OF ABOUT CSS*/
+
+#containerAbout {
+  position: relative;
+  width:60%;
+  max-width: 725px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6%;
+}
+#travisBioPic {
+  width: 30%;
+  min-width: 240px;
+  float: left;
+  -webkit-box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  margin-right: 15px;
+  padding-top: 4px;
+
+}
+#bio {
+  font-size: .9em;
+  padding-bottom: 17%;
+  transition-delay: 0.35s;
+}
+#bio>span {
+  position: relative;
+  float: right;
+  font-family: Cursive;
+  padding-right: 5%;
+  font-size: 1.15em;
+  color: #e30b0b;
+}
+#footer {
+  clear: both;
+  width:100%;
+  text-align: center;
+  font-size: .75em;
+  color: #6d6d6d;
+}
+/*END OF ABOUT CSS/ BEGINNING OF PORTFOLIO CSS*/
+
+#portfolioContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+  min-width: 650px;
+  max-width: 850px;
+  height: 95vh;
+  margin-top: 6%;
+  position: relative;
+  margin-bottom: 4%;
+}
+#slide {
+  max-width: 100%;
+  width:auto;
+  max-height: 100%;
+  height: auto;
+  -webkit-box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  border-radius: 1px;
+  margin: auto;
+  display: block;
+
+}
+#forwardArrow{
+  position: absolute;
+  width:45px;
+  height: 30px;
+  right:10px;
+  top: 10px;
+  opacity: .7;
+}
+#backwardArrow {
+  position: absolute;
+  width:45px;
+  height: 30px;
+  right: 65px;
+  top: 10px;
+  opacity: .7;
+}
+#forwardArrow:hover {
+  opacity: .75;
+  -webkit-filter: brightness(125%);
+}
+#backwardArrow:hover {
+  opacity: .75;
+  -webkit-filter: brightness(125%);
+}
+
+/*END OF PORFOLIO CSS/ BEGINNING OF CONTACT CSS*/
+
+#containerContact {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  max-width: 725px;
+  margin-top: 6%;
+  font-size: .9em;
+}
+#contactInfo {
+  clear: both;
+  width: 80%;
+  margin: 10px auto 50px auto;
+}
+#contactPhoto {
+  clear:both;
+  width: 100%;
+}
+#travisHammock {
+  width:100%;
+  border-radius: 1px;
+  -webkit-box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  box-shadow: -3px 5px 7px -2px rgba(0,0,0,0.75);
+  margin-bottom: 25px;
+}
+.contactIconsDiv {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  width:225px;
+}
+.contactIcons{
+  float: left;
+  width:20%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  padding-bottom: 20px;
+  -webkit-filter: grayscale(100%);;
+  transition: .85s;
+}
+/*END OF CONTACT CSS*/
+.fadeIn {
+  opacity: 0;
+  transition: 1.5s;
+}
+/* RESPONIVE DESIGN */
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (max-width:800px) {
+  #containerAbout {
+    width: 80%;
+  }
+  #travisBioPic {
+    width: 45%;
+    float: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 7%;
+  }
+  #bio {
+    clear: both;
+    padding-bottom: 18%;
+  }
+  #portfolioContainer {
+    width:90%;
+    min-width: initial;
+  }
+  #forwardArrow {
+    top: 1.5%;
+    width: 60px;
+    height: 40px;
+  }
+  #backwardArrow {
+    top: 1.5%;
+    left: 10px;
+    width: 60px;
+    height: 40px;
+
+  }
+  #containerContact {
+    width: 80%;
+    font-size: .9em;
+  }
+
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (max-width:600px) {
+  #travisPhotoHome {
+    min-width: 900px;
+  }
+  #containerHome>h2  {
+    font-size: 1.5em;
+    top: 35%;
+  }
+  #containerAbout {
+    width: 90%;
+  }
+  #travisBioPic {
+    width: 50%;
+    min-width: initial;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  #bio {
+    font-size: .8em;
+    padding-bottom: 20%;
+  }
+  #portfolioContainer {
+    width:100%;
+    height: auto;
+  }
+  #slide {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 8%;
+  }
+  #forwardArrow {
+    top:15px;
+    right:7%;
+  }
+  #backwardArrow {
+    top:15px;
+    left:7%;
+  }
+  #containerContact {
+    width: 100%;
+    font-size: .8em;
+    overflow-x: hidden;
+  }
+  #travisHammock {
+    width:110%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  #contactInfo {
+    width:90%;
+  }
+}
