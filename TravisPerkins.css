@@ -1,22 +1,19 @@
-/*jerome was here*/
-.shortcut-thing {
-  background-image: url('Photos/travisphoto.jpeg');
-  background-size: cover;
-  height: 92vh;
-  min-height: 400px;
-}
+
 
 body {
   margin: 0;
   padding: 0;
   font-family: garamond;
   font-size: 20px;
-  height: 100%;
+  height: 100vh;
+  position: relative;
+  width:100%;
+  margin: 0 auto;
 }
 #nav{
   border-radius: 0px;
   border-bottom: 1px solid gray;
-  z-index: 100;
+  z-index: 3;
 }
 .navbar-brand {
   width:99px;
@@ -39,18 +36,22 @@ body {
 }
 #containerHome {
   position: relative;
-  top:-20px;
-  margin-bottom: -20px;
+  top:-70px;
+  margin-bottom: 0px;
   overflow-x: hidden;
+  height:100vh;
+  background-image: url('Photos/travisphoto.jpeg');
+  background-size: cover;
+  min-height: 400px;
 }
-#travisPhotoHome {
+/*#travisPhotoHome {
   position: relative;
   width: 100%;
   min-width: 1250px;
   height: 100%;
   padding: 0;
   margin:0;
-}
+}*/
 #containerHome>h2 {
   position: absolute;
   top: 22.5%;
@@ -296,14 +297,6 @@ body {
   #containerHome>h2  {
     font-size: 1.5em;
     top: 35%;
-  }
-  #socialLinks {
-    position: absolute;
-    bottom: 60px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 225px;
   }
   #containerAbout {
     width: 90%;
