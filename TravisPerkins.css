@@ -344,4 +344,7 @@ body {
   #contactInfo {
     width:90%;
   }
+  #socialLinks{
+    display: none;
+  }
 }
